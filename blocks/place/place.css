@@ -1,0 +1,10 @@
+.place {
+  display: grid;
+  grid: auto auto / 460px auto;
+  max-width: 984px;
+  margin: 0 auto 80px;
+  gap: 48px 40px;
+}
+.place:last-of-type {
+  margin: 0 auto 92px;
+}
