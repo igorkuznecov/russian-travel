@@ -1,5 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 28px 48px 56px;
+  margin: 0 auto;
+
+  padding: 28px 48px 56px;
 }
