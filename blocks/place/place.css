@@ -4,7 +4,9 @@
   max-width: 984px;
   margin: 0 auto 80px;
   gap: 48px 40px;
+  transition: ease all 1s;
 }
+
 .place:last-of-type {
   margin: 0 auto 92px;
 }
@@ -14,5 +16,17 @@
     padding: 0 48px;
     gap: 48px 32px;
     grid: auto auto / 440px auto;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .place {
+    margin: 0 auto 72px;
+    padding: 0 24px;
+    gap: 48px 28px;
+    grid: auto auto / 340px auto;
+  }
+  .place:last-of-type {
+    margin: 0 auto 90px;
   }
 }

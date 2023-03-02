@@ -5,4 +5,10 @@
   font-size: 18px;
   line-height: 1.63;
   color: #FFFFFF;
+  transition: ease all 1s;
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
 }

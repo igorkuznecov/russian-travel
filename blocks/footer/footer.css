@@ -3,4 +3,11 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 0 48px 24px;
+  transition: ease all 1s;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .footer {
+    padding: 0 24px 24px;
+  }
 }

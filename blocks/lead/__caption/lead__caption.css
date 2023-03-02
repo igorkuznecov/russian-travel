@@ -8,4 +8,10 @@
   text-transform: uppercase;
   color: #fff;
   margin: 8px 0 0 0;
+  transition: ease all 1s;
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .lead__caption {
+    margin: 8px 0 0 24px;
+  }
 }

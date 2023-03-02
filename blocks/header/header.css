@@ -2,6 +2,16 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-
   padding: 28px 48px 56px;
+  transition: ease all 1s;
+}
+@media screen and (max-width: 1279px) {
+  .header {
+    padding: 28px 48px 48px;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .header {
+    padding: 28px 24px 48px;
+  }
 }

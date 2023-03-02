@@ -3,9 +3,12 @@
   flex-direction: column;
   justify-content: center;
   min-height: 740px;
+  box-sizing: border-box;
   height: 100%;
   position: relative;
   text-decoration: none;
+  transition: ease all 1s;
+  margin-bottom: 92px;
 }
 
 .cover__overlay:before {
@@ -31,5 +34,12 @@
 @media screen and (max-width: 1279px) {
   .cover__overlay {
     min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+    margin-bottom: 88px;
   }
 }
