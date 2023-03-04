@@ -1,5 +1,5 @@
 .lead__subtitle {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -8,7 +8,7 @@
   max-width: 640px;
   color: #FFFFFF;
   margin: 0 auto 64px;
-  transition: ease all 1s;
+  padding: 0;
 }
 
 @media screen and (max-width: 1279px) {
