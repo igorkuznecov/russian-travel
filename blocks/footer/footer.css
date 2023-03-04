@@ -2,12 +2,19 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 0 48px 24px;
+  padding: 92px 48px 24px;
   transition: ease all 1s;
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .footer {
-    padding: 0 24px 24px;
+    padding: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 64px 16px 24px;
+    flex-direction: column;
   }
 }

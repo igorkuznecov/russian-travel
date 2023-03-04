@@ -8,10 +8,29 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+
 .footer__link:hover {
-  opacity: 0.8;;
+  opacity: 0.8;
+  ;
 }
 
 .footer__link:first-of-type {
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    display: block;
+    margin: 0 0 32px 0;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .footer__link:first-of-type {
+    margin: 0 0 32px 0;
+  }
+
+  .footer__link:last-of-type {
+    margin: 0 0 48px 0;
+  }
 }

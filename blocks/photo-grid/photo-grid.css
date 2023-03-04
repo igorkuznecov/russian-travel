@@ -23,3 +23,12 @@
     margin: 88px auto;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+    gap: 12px 12px;
+    margin: 64px auto;
+  }
+}

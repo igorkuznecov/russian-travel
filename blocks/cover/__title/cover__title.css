@@ -9,4 +9,13 @@
   color: #FFFFFF;
   text-align: center;
   z-index: 2;
+  transition: ease all 1s;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 0 auto 16px;
+  }
 }
